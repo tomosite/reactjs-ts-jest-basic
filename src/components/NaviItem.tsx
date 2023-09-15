@@ -5,10 +5,7 @@ export interface NaviItemProps {
   onClick: (linkId: string) => void;
 }
 
-export const NaviItemProps: FunctionComponent<NaviItemProps> = ({
-  id,
-  children
-}) => {
+export const NaviItem: FunctionComponent<NaviItemProps> = (props) => {
   const onClickHandler = () => {
     props.onClick(props.id);
   };
