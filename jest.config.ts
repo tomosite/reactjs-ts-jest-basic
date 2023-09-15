@@ -150,9 +150,9 @@ const config: Config = {
 
   moduleNameMapper: {
     '^.+\\.svg$': 'jest-svg-transformer',
-    '^.+\\.(css|less|scss)$': 'identity-obj-proxy',
+    '^.+\\.(css|less|scss)$': 'identity-obj-proxy'
   },
-  setupFilesAfterEnv: ['<rootDir>/setupTests.ts'],
+  setupFilesAfterEnv: ['<rootDir>/setupTests.ts']
   //setupFilesAfterEnv: ['<rootDir>/setupTests.js']
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
