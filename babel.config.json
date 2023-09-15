@@ -2,6 +2,7 @@
   "presets": [
     [
       "@babel/preset-env",
+
       {
         "targets": {
           "edge": "17",
@@ -13,6 +14,7 @@
         "useBuiltIns": "usage",
         "corejs": "3.6.5"
       }
-    ]
+    ],
+    ["@babel/preset-typescript", {"targets": {"node": "current"}}]
   ]
 }

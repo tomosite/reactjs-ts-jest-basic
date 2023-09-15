@@ -1,17 +1,17 @@
-import React, { FunctionComponent } from 'react';
-
+import * as React from "react";
 export interface NaviItemProps {
   id: string;
+  children: React.ReactNode; 
   onClick: (linkId: string) => void;
 }
 
-export const NaviItem: FunctionComponent<NaviItemProps> = (props) => {
+export const NaviItem: React.FunctionComponent<NaviItemProps> = ({id, children, onClick}: NaviItemProps) => {
   const onClickHandler = () => {
-    props.onClick(props.id);
+    onClick(id);
   };
   return (
     <>
-      <li onClick={onClickHandler}>{props.children}</li>
+      <li onClick={onClickHandler}>{children}</li>
     </>
   );
 };
