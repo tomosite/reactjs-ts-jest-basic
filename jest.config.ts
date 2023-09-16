@@ -147,11 +147,13 @@ const config: Config = {
 
   // The test environment that will be used for testing
   testEnvironment: 'jsdom',
+
   moduleNameMapper: {
     '^.+\\.svg$': 'jest-svg-transformer',
     '^.+\\.(css|less|scss)$': 'identity-obj-proxy'
   },
-  setupFilesAfterEnv: ['<rootDir>/setupTests.js']
+  setupFilesAfterEnv: ['<rootDir>/setupTests.ts']
+  //setupFilesAfterEnv: ['<rootDir>/setupTests.js']
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
 
