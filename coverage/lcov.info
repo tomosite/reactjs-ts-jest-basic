@@ -1,5 +1,5 @@
 TN:
-SF:src/components/LinkItem.jsx
+SF:src/components/Navigation/LinkItem.jsx
 FN:3,(anonymous_0)
 FN:4,(anonymous_1)
 FNF:2
@@ -15,7 +15,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/NaviItem.tsx
+SF:src/components/Navigation/NaviItem.tsx
 FN:10,(anonymous_0)
 FN:15,(anonymous_1)
 FNF:2
@@ -32,7 +32,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Navigation.jsx
+SF:src/components/Navigation/Navigation.jsx
 FN:4,(anonymous_0)
 FN:9,(anonymous_1)
 FNF:2
@@ -48,7 +48,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/index.tsx
+SF:src/components/Navigation/index.tsx
 FNF:0
 FNH:0
 LF:0
