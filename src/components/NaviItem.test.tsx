@@ -10,6 +10,7 @@ describe('App', () => {
       </NaviItem>
     );
     const li_elem = screen.getByText(/item dummy 1/i);
+    expect(li_elem).toMatchSnapshot();
     fireEvent.click(li_elem, { button: 0 });
     expect(mockFn).toHaveBeenCalled();
     expect(li_elem).toBeTruthy();
