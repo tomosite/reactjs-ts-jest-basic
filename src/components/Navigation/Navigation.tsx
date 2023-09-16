@@ -2,10 +2,12 @@ import React from 'react';
 import { LinkItem, LinkItemProps } from '.';
 
 export interface NavigationProps {
-  links : Array<LinkItemProps>
+  links: Array<LinkItemProps>;
 }
 
-export const Navigation : React.FC<NavigationProps> = ({links} : NavigationProps) => {
+export const Navigation: React.FC<NavigationProps> = ({
+  links
+}: NavigationProps) => {
   return (
     <>
       <nav>
@@ -19,4 +21,4 @@ export const Navigation : React.FC<NavigationProps> = ({links} : NavigationProps
       </nav>
     </>
   );
-} 
+};

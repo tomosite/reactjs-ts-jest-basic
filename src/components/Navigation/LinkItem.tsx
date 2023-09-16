@@ -1,19 +1,25 @@
 import React from 'react';
 
 export interface LinkItemProps {
-  id: number;
-  onClick: (linkId: number) => void;
+  id: string;
+  children: React.ReactNode;
+  onClick: (linkId: string) => void;
 }
 
-
-export const LinkItem : React.FC<LinkItemProps> = ({id, children, onClick} : LinkItemProps) => {
+export const LinkItem: React.FC<LinkItemProps> = ({
+  id,
+  children,
+  onClick
+}: LinkItemProps) => {
   const onClickHandler = () => {
     onClick(id);
   };
 
   return (
     <>
-      <li onClick={onClickHandler} id={id}>{children}</li>
+      <li onClick={onClickHandler} id={id}>
+        {children}
+      </li>
     </>
-  )
-} 
+  );
+};

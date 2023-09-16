@@ -3,7 +3,7 @@ import { List } from 'semantic-ui-react';
 
 export interface NaviItemProps {
   id: string;
-  //children: React.ReactNode;
+  children: React.ReactNode;
   onClick: (linkId: string) => void;
 }
 
