@@ -13,7 +13,7 @@ export const Navigation: React.FC<NavigationProps> = ({
       <nav>
         <ul>
           {links.map((item) => (
-            <LinkItem key={item.id} id={item.id} onClick={() => {}}>
+            <LinkItem key={item.id} id={item.id} onClick={item.onClick}>
               {item.children}
             </LinkItem>
           ))}
