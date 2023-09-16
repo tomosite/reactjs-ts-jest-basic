@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1694838834329" clover="3.2.0">
-  <project timestamp="1694838834329" name="All files">
-    <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5" elements="16" coveredelements="14" complexity="0" loc="10" ncloc="10" packages="1" files="4" classes="4"/>
+<coverage generated="1694838870497" clover="3.2.0">
+  <project timestamp="1694838870497" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="16" coveredelements="16" complexity="0" loc="10" ncloc="10" packages="1" files="4" classes="4"/>
     <file name="LinkItem.jsx" path="/Users/trunghieule/Workspace/ReactJs/HieuLe/03-MockServer/viteapp-ts/src/components/LinkItem.jsx">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="4" count="3" type="stmt"/>
@@ -9,11 +9,11 @@
       <line num="7" count="3" type="stmt"/>
     </file>
     <file name="NaviItem.tsx" path="/Users/trunghieule/Workspace/ReactJs/HieuLe/03-MockServer/viteapp-ts/src/components/NaviItem.tsx">
-      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="10" count="1" type="stmt"/>
-      <line num="14" count="4" type="stmt"/>
-      <line num="15" count="0" type="stmt"/>
-      <line num="17" count="4" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
     </file>
     <file name="Navigation.jsx" path="/Users/trunghieule/Workspace/ReactJs/HieuLe/03-MockServer/viteapp-ts/src/components/Navigation.jsx">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
