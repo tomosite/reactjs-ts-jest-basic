@@ -1,6 +1,7 @@
+import React from 'react';
 import { Container, Header } from 'semantic-ui-react'
 import './App.css';
-import { NaviItem } from './components';
+import { NaviItem } from './components/Navigation';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <Container>
-        <NaviItem />
+        <NaviItem id="1" onClick={() => {}}>item dummy 1</NaviItem>
       </Container>
     </>
   );

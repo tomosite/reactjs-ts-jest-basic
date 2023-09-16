@@ -1,7 +1,7 @@
 import { render, fireEvent, screen } from '@testing-library/react';
 import { NaviItem } from '.';
 
-describe('App', () => {
+describe('NaviItem', () => {
   test('click the navigation link item', () => {
     const mockFn = jest.fn();
     render(
