@@ -27,6 +27,5 @@ describe('Navigation component', () => {
 
     fireEvent.click(link_elem, { button: 0 });
     expect(mockFn).toHaveBeenCalled();
-
   });
 });

@@ -1,10 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App click the navigation link item 1`] = `
-<div
-  class="item"
-  role="listitem"
+<li
+  id="2"
 >
-  item dummy 1
-</div>
+  link item 1
+</li>
 `;
